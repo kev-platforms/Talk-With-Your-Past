@@ -8,7 +8,7 @@ st.write("Habla con tus coordenadas de forma fluida y totalmente inteligente.")
 
 # 2. Barra lateral con configuraciones sencillas
 st.sidebar.header("📝 Configura tus Datos Base")
-nombre = st.sidebar.text_input("Tu Nombre:", "Kevin")
+nombre = st.sidebar.text_input("Tu Nombre:", "Carlos")
 gustos = st.sidebar.text_area("Tus gustos en el pasado:", "Me gustaba jugar videojuegos, escuchar música y salir con amigos.")
 año_destino = st.sidebar.slider("Año al que quieres viajar:", 2010, 2045, 2014)
 
